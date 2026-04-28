@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Parsing & Monitoring System
 
 Готовый модульный Python-проект для:
@@ -191,3 +192,33 @@ REQUEST_TIMEOUT=20
 - повторяет запросы ограниченно;
 - останавливается при 403, 429 или признаках CAPTCHA;
 - не пишет секреты в код и логи.
+=======
+# 🔎 Parser Monitoring System
+
+Система для парсинга сайтов, мониторинга цен и сбора контактов с уведомлениями в Telegram.
+
+---
+
+## 🚀 Возможности
+
+- 📦 Мониторинг цен товаров
+- 📉 Отслеживание изменений цен
+- 🧲 Сбор контактов (email, телефон, сайт)
+- 👥 Поиск потенциальных клиентов
+- 💾 Хранение в SQLite + CSV
+- 🤖 Telegram-бот с уведомлениями
+- ⏱ Автоматический запуск
+
+---
+
+## ⚙️ Установка
+
+```bash
+git clone https://github.com/YOUR_USERNAME/parser_monitoring_system.git
+cd parser_monitoring_system
+
+python -m venv .venv
+.venv\Scripts\activate  # Windows
+
+pip install -r requirements.txt
+>>>>>>> 6cb8f83f1a5db7de79f50160d44da6014a8d267c
